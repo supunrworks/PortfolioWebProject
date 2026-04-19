@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+a {
+    font-family: "Boldonse", system-ui;
+    color: white;
+    text-decoration: none;
+}
+
+/* NavBar */
+nav {
+    background-image: url(Images/nav.webp);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 120px;
+}
+
+nav .left a {
+    color: b;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+nav .right a {
+    margin: 0 5px;
+    font-size: 30px;
+}
+
+nav .right a :hover {
+    font-size: 35px;
+    transition: .1s;
+}
+
+/* hero */
+
+.hero-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.hero-sec .text h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.hero-sec .text p {
+    font-family: "Source Code Pro", monospace;
+    padding: 20px 0 20px 0;
+}
+
+.hero-sec .text .links {
+    margin-top: 25px;
+}
+
+.hero-sec .text ul {
+    font-family: "Source Code Pro", monospace;
+    margin-left: 50px;
+}
+
+.hero-sec .text .links a {
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;
+}
+
+.hero-sec .text .links a:hover {
+    background-color: rgba(37, 37, 255, 0.459);
+    font-size: 18px;
+}
+
+.headshot img {
+    width: 350px;
+    border-radius: 50%;
+    cursor: none;
+}
+
+.hero-sec .headshot {
+    display: flex;
+    justify-content: right;
+}
+
+/* skills */
+.skills-sec {
+    background-image: url(Images/nav.webp);
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.skills-sec h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.skills-sec .text {
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.skills-sec .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-sec .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.384);
+    border-radius: 5px;
+}
+
+.skills-sec .cells .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.skills-sec .cells .cell span {
+    color: white;
+}
+
+@media (max-width:870px) {
+    .hero-sec .text h2 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width:760px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .hero-sec {
+        flex-direction: column;
+    }
+
+    .headshot img {
+        width: 300px;
+    }
+}
+
+@media (max-width:445px) {
+    .headshot img {
+        width: 200px;
+    }
+
+}
