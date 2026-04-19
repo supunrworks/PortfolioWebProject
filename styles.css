@@ -106,19 +106,16 @@ nav .right a :hover {
 
 /* skills */
 .skills-sec {
-    background-image: url(Images/nav.webp);
     padding: 50px;
     margin-bottom: 100px;
 }
 
 .skills-sec h2 {
-    color: white;
     font-size: 35px;
     text-align: center;
 }
 
 .skills-sec .text {
-    color: white;
     margin: 20px;
     text-align: center;
 }
@@ -134,11 +131,10 @@ nav .right a :hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     width: 200px;
     padding: 10px 20px;
     margin: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.384);
+    border: 2px solid rgb(12, 11, 11);
     border-radius: 5px;
 }
 
@@ -147,10 +143,6 @@ nav .right a :hover {
     height: 30px;
     object-fit: contain;
     border-radius: 5px;
-}
-
-.skills-sec .cells .cell span {
-    color: white;
 }
 
 @media (max-width:870px) {
