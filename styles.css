@@ -111,6 +111,7 @@ nav .right a :hover {
 }
 
 .skills-sec h2 {
+    font-family: "Boldonse", system-ui;
     font-size: 35px;
     text-align: center;
 }
@@ -125,11 +126,46 @@ nav .right a :hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 50px;
-    padding: 10px 20px;
-    margin: 10px;
+    font-size: 80px;
+    gap: 50px;
+    padding: 10px;
+    margin: 50px;
+    border: solid black;
+    z-index: -1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:870px) {
     .hero-sec .text h2 {
