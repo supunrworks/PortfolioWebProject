@@ -44,7 +44,7 @@ nav .right a {
 
 nav .right a :hover {
     font-size: 35px;
-    transition: .1s;
+    transition: .2s;
 }
 
 /* hero */
@@ -89,8 +89,10 @@ nav .right a :hover {
 }
 
 .hero-sec .text .links a:hover {
-    background-color: rgba(37, 37, 255, 0.459);
+    background-color: rgb(29, 27, 27);
+    color: white;
     font-size: 18px;
+    transition: 0.4s;
 }
 
 .headshot img {
